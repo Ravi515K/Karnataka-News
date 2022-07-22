@@ -1,0 +1,913 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+       *{
+        margin:0px;
+        padding:0px;
+        /* box-sizing: border-box; */
+    }
+       .line{
+           font-size: 100px;
+           margin-bottom: -35px;
+            margin-left: 5%;
+            color:green;
+      }
+       .title{
+        margin-left: 5%;
+        margin-bottom: 10px;
+        font-size: 25px;
+      }
+   
+    body{
+       
+        font-family: sans-serif;
+    }
+    img{
+        /* border:1px solid red; */
+    width:150px;
+    height:150px;
+    margin-left: 11%;
+    }
+ #outer{
+    background: teal;
+    text-align: center;
+  
+} 
+ #outer ul{
+    /* border:1px solid red; */
+
+    display:inline-flex;
+    align-items: center;
+    margin-left: 140px;
+    list-style:none;
+    color:#fff;
+   
+}
+#outer ul li {
+    /* border:1px solid red; */
+   width:100px;
+    /* padding-left:25px; */
+
+    
+}
+#outer ul li:nth-child(2){
+    width:120px;
+}
+#outer ul li:nth-child(3){
+    width:120px;
+}
+#outer ul li:hover{
+    background: #0bc9f4;
+}
+.active{
+  background-color: #ffff00;
+   font-size: 15px;
+   margin-left: 10px;
+   padding-left:5px;
+}
+#F2{
+    color:black;
+}
+#F1{
+    color:red;
+}
+#outer ul li a{
+    text-decoration: none;
+    color:white;
+}
+.drop{
+    display:none;
+}
+#outer ul li:hover .drop{
+ display:block;
+  /* width:100px; */
+ position:absolute;
+ background:teal ;
+ margin-top:2px;
+ margin-left:-15px;
+}
+#outer ul li:hover .drop ul{
+ display:block;
+ margin:10px;
+}
+#outer ul li:hover .drop ul li{
+    width:150px;
+    padding:10px;
+    border-bottom:1px dotted #fff;
+    background: transparent;
+    border-radius: 0%;
+    text-align: left;
+}
+#outer ul li:hover .drop ul li:last-child{
+    border:none;
+}
+#outer ul li:hover .drop ul li a:hover{
+   color:#0bc9f4
+}
+/* ======================================================================Bengaluru Head ========================================================= */
+#heading p{
+    font-size:15px;
+    color:blue;
+   
+}
+span{
+    font-size:15px;
+    color: black;
+}
+
+
+#heading{
+    /* border:1px solid red; */
+    width:200px;
+    height: 30px;
+    margin-left: 5%;
+    margin-top: 100px;
+    margin-bottom: 5px;
+}
+  #heading1{
+    /* border:1px solid red; */
+    width:1200px;
+    height: 50px;
+    margin-left: 5%;
+    display:flex;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+
+}
+ #heading1 div{
+    /* border:1px solid red; */
+    width:200px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ #heading1 div h1 a{
+  text-decoration: none;
+    color:white;
+ }
+ #heading1  div h4 a{
+    text-decoration: none;
+    font-size: 16px;
+    margin-top: -0px;
+     color:black; 
+ }
+ 
+
+#heading1 div:first-child{
+  
+    background-color: green;
+}
+
+/* ===============================================================TOP STORIES ==================================================================== */
+
+     #container{
+        /* border:1px solid red; */
+        width:100%;
+        margin-top: 100px;
+        background-color: #65A2931A
+    }
+      .main{
+          /* border:1px solid red; */
+          width:90%;
+          height:700px;
+          display: grid;
+          grid-template-columns: repeat(3,1fr);
+          grid-template-rows: 300px 300px;
+          gap:30px;
+          margin-left: 5%;
+          margin-right: 5%;
+      }
+      .main div{
+        /* border:1px solid red; */
+
+      }
+      .first img{
+        /* border:1px solid black; */
+        width:100%;
+        height:300px;
+        margin-left: 0%;
+      }
+      h2 {
+        margin-top: -60px;
+        color:white;
+        font-size: 20px;
+        margin-left: 10px;
+      }
+      h2 a{
+        color:#fff;
+        text-decoration: none;
+      }
+      .second{
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+        background-color: #fff;
+      }
+      .second div{
+        /* border:1px solid red; */
+        width:90%;
+        height:100px;
+        margin-left: 5%;
+        display:flex;
+     }
+      .second div img{
+        width:80%;
+        height:80px;
+        padding:10px;
+        margin-left: 0%;
+      }
+      h3{
+        font-size: 15px;
+        padding:10px;
+      }
+      .third img{
+        width:90%;
+        margin-left: 30px;
+        height: 280px;
+        margin-left: 0%;
+      }
+      .third h3 {
+        color:white;
+        margin-top: -35px;
+        margin-left: 25px;
+      }
+      h3 a{
+        color:#fff;
+        text-decoration: none;
+      }
+     
+      .four div{
+        /* border:1px solid red; */
+        width:100%;
+        height:130px;
+        margin: 0px 0px 50px 0px;
+       
+        /* margin-left: 5%; */
+        display:flex;
+        background-color: #fff;
+        /* box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px; */
+      }
+      .four div img{
+        width:80%;
+        height:130px;
+        margin-left: 0%;
+      }
+      h3 a{
+        text-decoration: none;
+        color:black;
+        font-size: 17px;
+      }
+      .five{
+        /* border:1px solid red; */
+        background-color: #fff;
+      }
+      .five p{
+        /* border:1px solid red; */
+         
+          border-bottom: 1px dotted teal;
+          padding:10px;
+      }
+       p a{
+        text-decoration: none;
+        color:black;
+        font-size: 17px;
+      
+      }
+      .six{
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+        background-color: #fff;
+      }
+      .six div{
+        /* border:1px solid red; */
+        width:90%;
+        height:100px;
+        margin-left: 5%;
+        display:flex;
+     }
+      .six div img{
+        width:80%;
+        height:80px;
+        padding:10px;
+        margin-left: 0%;
+      }
+
+
+      /* =========================================================================CRIME-CSS-PART========================================= */
+     
+
+      #container2 h1:first-child{
+           font-size: 100px;
+           margin-bottom: -35px;
+            margin-left: 5%;
+            color:green;
+      }
+      #container2 h1:nth-child(2){
+        margin-left: 5%;
+        margin-bottom: 10px;
+        font-size: 22px;
+      }
+       #container2{
+        /* border:1px solid red; */
+        width:100%;
+        /* background-color: #65A2931A */
+       }
+    #container2A {
+          /* border:1px solid red; */
+          width:90%;
+          height:700px;
+          display: grid;
+          grid-template-columns: repeat(3,1fr);
+          grid-template-rows: 300px 300px;
+          gap:30px;
+         margin-left: 5%;
+          margin-right: 5%;
+      }
+      .first1 img{
+        /* border:1px solid red; */
+        width:100%;
+        height:300px;
+        margin-left:0%;
+      }
+      .second1{
+        /* border:1px solid red; */
+        background-color: green;
+        margin-left: -30px;
+        height:300px;
+        
+      }
+      .second1 h3 {
+        margin-top: 60px;
+       margin-left: 20px;
+       
+       
+    
+      }
+      .second1 h3 a{
+        color:white;
+        font-size: 25px;
+      }
+       h3 a{
+        color:black;
+        font-size: 18px;
+        text-decoration: none;
+      }
+      .third1{
+        /* border:1px solid red; */
+        background: white;
+      }
+      .third1 img{
+        /* border:1px solid red; */
+        width:100%;
+        height:245px;
+        margin-left:0%;
+      }
+      .four1{
+        /* border:1px solid red; */
+        background: white;
+      }
+      .four1 img{
+        /* border:1px solid red; */
+        width:100%;
+        height:245px;
+        margin-left:0%;
+      }
+      .five1{
+        /* border:1px solid red; */
+        background: white;
+      }
+      .five1 img{
+        /* border:1px solid red; */
+        width:100%;
+        height:245px;
+        margin-left:0%;
+      }
+      .six1{
+        /* border:1px solid red; */
+        background: white;
+      }
+      .six1 img{
+        /* border:1px solid red; */
+        width:100%;
+        height:245px;
+        margin-left:0%;
+      }
+/* ====================================================================POLITICS==================================================== */
+
+#container23{
+    margin-top: 100px;
+}
+#container3 h1:first-child{
+           font-size: 100px;
+           margin-bottom: -35px;
+            margin-left: 5%;
+            color:green;
+      }
+      #container3 h1:nth-child(2){
+        margin-left: 5%;
+        margin-bottom: 10px;
+        font-size: 22px;
+      }
+       #container3{
+        /* border:1px solid red; */
+        width:100%;
+        background-color: #65A2931A
+       }
+    #container3A {
+          /* border:1px solid red; */
+          width:90%;
+          height:400px;
+          display: grid;
+          grid-template-columns: 30% 30% 30%;
+          grid-template-rows: 300px;
+          gap:30px;
+         margin-left: 5%;
+          margin-right: 5%;
+      }
+      .first1 img{
+        /* border:1px solid red; */
+        width:100%;
+        height:300px;
+      }
+      .second1{
+        /* border:1px solid red; */
+        background-color: green;
+        margin-left: -30px;
+        height:300px;
+        
+      }
+      .second1 h3 {
+        margin-top: 60px;
+       margin-left: 20px;
+       
+       
+    
+      }
+      .second1 h3 a{
+        color:white;
+        font-size: 25px;
+      }
+      .third1{
+        background: #f6f6f6;;
+      }
+      .third1 div{
+        /* border:1px solid red; */
+        width:90%;
+        height:100px;
+        margin-left: 5%;
+        display:flex;
+     }
+      .third1 div img{
+        width:80%;
+        height:90px;
+        padding:10px;
+      }
+      .third1 div img:nth-child(2){
+        width: 90%;
+      }
+     
+     .third1 h3 a{
+        font-size: 17px;
+        text-decoration: none;
+        color:black;
+     }
+
+
+/* ====================================================================INFRASTRUVCURE===================================================== */
+    
+#container4 h1:first-child{
+           font-size: 100px;
+           margin-bottom: -35px;
+            margin-left: 5%;
+            color:green;
+      }
+      #container4 h1:nth-child(2){
+        margin-left: 5%;
+        margin-bottom: 10px;
+        font-size: 22px;
+      }
+       #container4{
+        /* border:1px solid red; */
+        width:100%;
+        background-color: #65A2931A
+       }
+    #container4A {
+          /* border:1px solid red; */
+          width:90%;
+          height:700px;
+          display: grid;
+          grid-template-columns: repeat(3,1fr);
+          grid-template-rows: 300px 300px;
+          gap:30px;
+         margin-left: 5%;
+          margin-right: 5%;
+      }
+      .first1 img{
+        /* border:1px solid red; */
+        width:100%;
+        height:300px;
+      }
+      .second1{
+        /* border:1px solid red; */
+        background-color: green;
+        margin-left: -30px;
+        height:300px;
+        
+      }
+      .second1 h3 {
+        margin-top: 60px;
+       margin-left: 20px;
+       
+       
+    
+      }
+      .second1 h3 a{
+        color:white;
+        font-size: 25px;
+      }
+       h3 a{
+        color:black;
+        font-size: 18px;
+        text-decoration: none;
+      }
+      .third1{
+        /* border:1px solid red; */
+        background: white;
+      }
+      .third1 img{
+        /* border:1px solid red; */
+        width:100%;
+        height:245px;
+      }
+      .four1{
+        /* border:1px solid red; */
+        background: white;
+      }
+      .four1 img{
+        /* border:1px solid red; */
+        width:100%;
+        height:245px;
+      }
+      .five1{
+        /* border:1px solid red; */
+        background: white;
+      }
+      .five1 img{
+        /* border:1px solid red; */
+        width:100%;
+        height:245px;
+      }
+      .six1{
+        /* border:1px solid red; */
+        background: white;
+      }
+      .six1 img{
+        /* border:1px solid red; */
+        width:100%;
+        height:245px;
+      }
+</style>
+
+       <!-- =======================================================NAVBAR ======================================================================== -->
+    <div>
+        <img src="https://www.deccanherald.com/sites/deccanherald.com/themes/deccanherald/images/logo/d-logo-new.svg" alt="">
+    </div >
+    <div id="outer">
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">Bengaluru</a>
+            
+                <div class="drop">
+                    <ul>
+                        <li><a href="">Top Stories</a></li>
+                        <li><a href="">Crime</a></li>
+                        <li><a href="">Politics</a></li>
+                        <li><a href="">Infrastructure</a></li>
+                        <li><a href="">Life in the City</a></li>
+                        <li><a href="">Bengaluru 2040</a></li>
+                    </ul>
+                </div>
+            
+             </li>
+            
+             <li><a href="">Karnataka</a>
+                <div class="drop">
+                    <ul>
+                        <li><a href="">Top Stories</a></li>
+                        <li><a href="">Crime</a></li>
+                        <li><a href="">Politics</a></li>
+                        <li><a href="">Districts</a></li>
+                        <li><a href=""> 22in22</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li><a href="">National</a>
+                <div class="drop">
+                    <ul>
+                        <li><a href="">Politics </a></li>
+                        <li><a href="">Coronavirous</a></li>
+                        <li><a href="">North and Central</a></li>
+                        <li><a href="">East and North East</a></li>
+                        <li><a href=""> South</a></li>
+                        <li><a href=""> West</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li><a href="">Sports</a>
+                <div class="drop">
+                    <ul>
+                        <li><a href="">cricket </a></li>
+                        <li><a href="">Formula 1</a></li>
+                        <li><a href="">Tennis</a></li>
+                        <li><a href="">Sportscene</a></li>
+                        <li><a href=""> OtherSports</a></li>
+                        <li><a href=""> Football</a></li>
+                    </ul>
+                </div>
+            
+            </li>
+            <li><a href="">Buisness</a>
+                <div class="drop">
+                    <ul>
+                        <li><a href="">Business News </a></li>
+                        <li><a href="">Family Finance</a></li>
+                        <li><a href="">Technology</a></li>
+                        <li><a href="">Budget Wheels</a></li>
+                        <li><a href="">DH wheels</a></li>
+                        <li><a href="">Budget 2022</a></li>
+                    </ul>
+                </div>
+            
+            </li>
+            <li><a href="">Opinion</a>
+                <div class="drop">
+                    <ul>
+                        <li><a href="">DH Views </a></li>
+                        <li><a href="">Editorials</a></li>
+                        <li><a href="">Panorama</a></li>
+                        <li><a href="">Comment</a></li>
+                        <li><a href="">In perspective</a></li>
+                        <li><a href="">Right In the Middle</a></li>
+                    </ul>
+                </div>
+            
+            </li>
+            <li><a href="">Features</a>
+                <div class="drop">
+                    <ul>
+                        <li><a href="">Metrolife </a></li>
+                        <li><a href="">Entertainment</a></li>
+                        <li><a href="">Travel</a></li>
+                        <li><a href="">Spectrum</a></li>
+                        <li><a href="">Sunday Herald</a></li>
+                        <li><a href="">Living</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li><a href="">Videos</a>
+                <div class="drop">
+                    <ul>
+                        <li><a href="">Latest Videos </a></li>
+                        <li><a href="">Bengaluru</a></li>
+                        <li><a href="">Karnataka</a></li>
+                        <li><a href="">People</a></li>
+                        <li><a href="">Popular</a></li>
+                       
+                    </ul>
+                </div>
+            
+            </li>
+            <li><a href="">Specials</a>
+                <div class="drop">
+                    <ul>
+                        <li><a href="">Insight </a></li>
+                        <li><a href="">Point Blank</a></li>
+                        <li><a href="">Sunday Spotlight</a></li>
+                     
+                       
+                    </ul>
+                </div>
+            
+            </li>
+            <li><a href="">Brandspot</a></li>
+            <li class="active"><a href="">
+                 <span id="F1"> New</span>
+                <span id="F2"> Newsletters</span>
+             </a></li>
+           
+        </ul>
+    </div>
+
+    <!-- =====================================Start-Headings ========================================================================================== -->
+    <div id="heading">
+       <p>Home <span>/ Bengaluru</span></p>
+    </div>
+
+    <div id="heading1">
+        <div class="Beng"><h1><a href=""> Bengaluru</a></h1></div> 
+        <div><h4><a href="BenTopStories.html"> TOP STORIES</a></h4></div> 
+        <div><h4><a href="BengaluruCrime.html"> CRIME</a></h4></div> 
+        <div><h4><a href="Beng-Politics.html"> POLITICS</a></h4></div> 
+        <div><h4><a href="Beng-Infrastructure.html"> INFRASTRUCTURE</a></h4></div> 
+        <!-- <div><h4><a href="">LIFE IN THE CITY</a> </h4></div>  -->
+    </div>
+
+    <!-- =======================================================TOP STORIES =========================================================== -->
+    
+    <div id="container">
+        <h1 class="line">-</h1>
+        <h1 class="title">TOP STORY</h1>
+        <div class="main">
+       
+        <div class="first">
+            <img src="https://www.deccanherald.com/sites/dh/files/styles/fullcardimage/public/articleimages/2022/07/22/bng31-bangalore-uni-pv-021-1113179-1653689541-1125779-1657558842-1128911-1658442900.jpg?itok=bQabv1N4" alt="">
+            <h2><a href="https://www.deccanherald.com/city/top-bengaluru-stories/bangalore-university-does-it-again-declares-results-twice-1128911.html">
+                BU does it again, declares ‘results’ twice!</a></h1>
+        </div>
+        <div class="second">
+            <div>
+                <img src="https://www.deccanherald.com/sites/dh/files/styles/snippetlist/public/articleimages/2022/07/22/file7lymrce7521sbcwbflm-1128916-1658442744.jpg?itok=q1UHcvgL" alt="">
+                <h3><a href="https://www.deccanherald.com/city/top-bengaluru-stories/law-student-cabbie-by-night-dies-in-head-on-collision-with-bus-in-bengaluru-1128916.html">
+                    Law student, cabbie by night, dies in bus collision...
+                </a></h3>
+            </div>
+            <div>
+                <img src="https://www.deccanherald.com/sites/dh/files/styles/snippetlist/public/articleimages/2022/07/22/file7lyn1cw9k93xirrsflm-1-1128917-1658442609.jpg?itok=tMRQiR1a" alt="">
+                <h3><a href="https://www.deccanherald.com/city/top-bengaluru-stories/highest-july-day-rain-for-bengaluru-since-2012-more-forecast-on-july-22-1128917.html">Highest July day rain for Bengaluru since 2012...</a></h3>
+            </div>
+            <div>
+                <img src="https://www.deccanherald.com/sites/dh/files/styles/snippetlist/public/articleimages/2022/07/22/file7lxjfwgdxva6ra4xk0u-1-1128845-1658442496.jpg?itok=iZs6X7VB" alt="">
+                <h3><a href="https://www.deccanherald.com/city/top-bengaluru-stories/experts-discuss-intranasal-nano-tech-in-drug-administration-1128845.html">Experts discuss intranasal tech in drug administration</a></h3>
+            </div>
+        </div>
+        <div class="third">
+            <img src="https://www.deccanherald.com/sites/dh/files/styles/fullcardimage/public/articleimages/2022/07/22/draupadi-murmu-pti-1-1128933-1658458432.jpg?itok=WxXXtyR0" alt="">            
+              <h3><a href="https://www.deccanherald.com/national/national-politics/president-elect-droupadi-murmus-tally-boosted-by-cross-voting-1128933.html">Prez-elect Murmu's tally boosted by cross-voting
+              </a></h3>
+        </div>
+        <div class="four">
+           <div>
+            <img src="https://www.deccanherald.com/sites/dh/files/styles/smallhorizontal/public/articleimages/2022/07/22/file7lyk9u4nhv72hfyy1z6-1128836-1658442183.jpg?itok=PYCJ6oHJ" alt="">
+            <h3>  <a href="https://www.deccanherald.com/city/top-bengaluru-stories/congress-leaders-have-made-enough-for-3-4-generations-ex-speaker-ramesh-kumar-1128836.html">Cong leaders made enough for 3-4 generations: Kumar...
+                </a> </h3>
+           </div>
+           <div>
+            <img src="https://www.deccanherald.com/sites/dh/files/styles/smallhorizontal/public/articleimages/2022/07/22/file7gkweo7sz2919xxzxd56-1-1128913-1658439902.jpg?itok=l9tcevrL" alt="">
+            <h3> <a href="https://www.deccanherald.com/city/top-bengaluru-stories/minister-seeks-rs-50-crore-to-develop-polluted-hosakerehalli-lake-1128913.html"> 
+                Minister seeks Rs 50 crore to clean Hosakerehalli Lake...  </a></h3>
+           </div>
+        </div>
+        <div class="five">
+           <p><a href="https://www.deccanherald.com/city/top-bengaluru-stories/students-staff-collapse-in-bengaluru-school-nearby-catering-unit-blamed-1128902.html">B'luru: Students collapse, nearby catering unit blamed</a></p>
+           <p><a href="https://www.deccanherald.com/city/top-bengaluru-stories/white-topping-work-traffic-diversions-on-old-madras-road-1128904.html">White topping: Traffic diversions on Old Madras Road</a></p>
+           <p><a href="https://www.deccanherald.com/city/top-bengaluru-stories/bengaluru-human-space-flight-expo-kicks-off-1128830.html">Bengaluru: Human Space Flight Expo kicks off</a></p>
+           <p><a href="https://www.deccanherald.com/national/sc-notice-to-nia-on-plea-for-default-bail-by-bengaluru-man-accused-of-radicalising-youth-to-join-isis-1128846.html">SC seeks NIA reply over plea for bail in terror case</a></p>
+           <p><a href="https://www.deccanherald.com/city/top-bengaluru-stories/youth-congress-sets-scrap-car-on-fire-in-bengaluru-amid-protest-over-ed-summons-to-sonia-gandhi-1128733.html">Cong sets scrap car on fire in Bengaluru amid protest</a></p>
+        </div>
+        <div class="six">
+           <div>
+            <img src="https://www.deccanherald.com/sites/dh/files/styles/snippetlist/public/articleimages/2022/07/21/wall-collapse-istock-1128684-1658385964.jpg?itok=rHuDeHsb" alt="">
+            <h3>  <a href="https://www.deccanherald.com/city/top-bengaluru-stories/4-labourers-killed-as-wall-of-under-construction-building-collapses-in-bengaluru-1128684.html">4 killed in wall collapse in Bengaluru</a> </h3>
+           </div>
+           <div>
+            <img src="https://www.deccanherald.com/sites/dh/files/styles/snippetlist/public/articleimages/2022/07/21/pti09242021000137a-1-1036813-1633234759-1128611-1658359445.jpg?itok=lAaglSUR" alt="">
+            <h3> <a href="https://www.deccanherald.com/city/top-bengaluru-stories/yuva-vedike-to-honour-covid-warriors-1128611.html">Yuva Vedike to honour Covid warriors</a></h3>
+           </div>
+           <div>
+            <img src="https://www.deccanherald.com/sites/dh/files/styles/snippetlist/public/articleimages/2022/07/21/crime-scene-istock-2-1090795-1647118549-1095083-1648366479-1095956-1648598488-1099025-1649456103-1099371-1649582420-1099927-1649715667-1101279-1103250.jpg?itok=8M2xTRWX" alt="">
+            <h3> <a href="https://www.deccanherald.com/city/top-bengaluru-stories/property-dispute-man-stabs-pushes-brother-from-4th-floor-1128609.html">
+                 Property dispute: Man pushes brother from 4th floor...</a> </h3>
+           </div>
+          
+        </div>
+        
+    </div>
+</div>
+<!-- =============================================================CRIME============================================================== -->
+
+<div id="container2">
+    <h1>-</h1>
+    <h1>CRIME</h1>
+
+    <div id="container2A">
+
+      <div class="first1">
+        <img src="https://www.deccanherald.com/sites/dh/files/styles/largehorizontal/public/articleimages/2022/07/21/fraud-prevention-31880921280-1105674-1651458201-1123463-1656833168-1128605-1658358073.jpg?itok=R6y4aiSB" alt="">
+      </div>
+      <div class="second1">
+          <h3>
+            <a href="https://www.deccanherald.com/city/bengaluru-crime/fraud-in-bike-transport-service-ex-staff-of-logistics-firms-take-customers-for-a-ride-1128605.html">
+                Bengaluru police bust fraud bike transport service</a>
+        </h3>
+      </div>
+       <div class="third1">
+        <img src="https://www.deccanherald.com/sites/dh/files/styles/smallvertical/public/articleimages/2022/07/22/file7lymrce7521sbcwbflm-1128916-1658442744.jpg?itok=HUx5F1N3" alt="">
+               <h3> <a href="https://www.deccanherald.com/city/top-bengaluru-stories/law-student-cabbie-by-night-dies-in-head-on-collision-with-bus-in-bengaluru-1128916.html">
+                Law student, cabbie by night, dies in bus collision...</a></h3>
+          </div>
+          <div class="four1">
+            <img src="https://www.deccanherald.com/sites/dh/files/styles/smallvertical/public/articleimages/2022/07/20/arrest-handcuff-jail-representative-istock-1080303-1644546649-1087645-1646321432-1128310-1658270334.jpg?itok=W7tOWFFn" alt="">
+            <h3> <a href="https://www.deccanherald.com/city/bengaluru-crime/gang-of-four-arrested-for-kidnapping-college-student-in-bengaluru-1128310.html">
+                B'luru: Gang of 4 held for kidnapping college student...</a></h3>
+          </div>
+          <div class="five1">
+            <img src="https://www.deccanherald.com/sites/dh/files/styles/smallvertical/public/articleimages/2022/07/20/arrest-istock-1-1024931-1630257269-1088729-1646632696-1089743-1646837646-1093996-1648042037-1095627-1648502671-1-1106449-1651678051-1107162-1108986.jpg?itok=MOs-7Gt5" alt="">
+           <h3> <a href="https://www.deccanherald.com/city/bengaluru-crime/medical-representative-arrested-for-killing-man-in-bengaluru-1128291.html">
+            Medical representative held for killing man in B'luru</a></h3>
+          </div>
+          <div class="six1">
+            <img src="https://www.deccanherald.com/sites/dh/files/styles/smallvertical/public/articleimages/2022/07/20/istock-88620954-1029704-1631468623-1128296-1658268306.jpg?itok=_MAHSsun" alt="">
+              <h3><a href="https://www.deccanherald.com/city/bengaluru-crime/uttar-pradesh-boy-robbed-just-5-days-after-moving-to-bengaluru-1128296.html">
+                UP boy robbed just 5 days after moving to...
+                </a></h3>
+          </div>
+    </div>
+    </div> 
+<!-- ==========================================================POLITICS================================================================ -->
+
+<div id="container3">
+    <h1>-</h1>
+    <h1>POLITICS</h1>
+
+    <div id="container3A">
+
+      <div class="first1">
+        <img src="https://www.deccanherald.com/sites/dh/files/styles/largehorizontal/public/articleimages/2022/07/16/bbmp-dh-1102852-1650574146-1107152-1651877347-1-1125068-1657327954-1127124-1657962299.jpg?itok=eNdapyZz" alt="">
+      </div>
+      <div class="second1">
+          <h3>
+            <a href="https://www.deccanherald.com/city/bengaluru-politics/over-2000-objections-ignored-in-final-bbmp-delimitation-report-1127124.html">
+              Over 2,000 objections ignored in BBMP delimitation </a>
+        </h3>
+      </div>
+
+      <div class="third1">
+        <div>
+            <img src="https://www.deccanherald.com/sites/dh/files/styles/snippetlist/public/articleimages/2022/07/15/bng11-chamarajpet-ground-bkj-13-1-1126736-1657852527.jpg?itok=hjjd2DLV" alt="">
+            <h3> <a href="https://www.deccanherald.com/city/top-bengaluru-stories/chamarajpet-idgah-is-bbmp-property-name-it-after-wadiyar-mp-1126736.html">
+                Name Chamarajpet Idgah after Wadiyar, says MP</a> </h3>
+        </div>
+        <div>
+            <img src="https://www.deccanherald.com/sites/dh/files/styles/snippetlist/public/articleimages/2022/06/27/bbmp-dh-1121739-1656273271.jpg?itok=6Wb95m4r" alt="">
+            <h3> <a href="https://www.deccanherald.com/city/bengaluru-politics/bbmp-ward-delimitation-creates-exclaves-in-three-wards-1121739.html">
+                BBMP ward delimitation creates 'exclaves' in 3 wards...</a>
+            </h3>
+        </div>
+        <div>
+            <img src="https://www.deccanherald.com/sites/dh/files/styles/snippetlist/public/articleimages/2022/06/26/nagamohan-das-dh-1121487-1656185869.jpg?itok=nWXLURHj" alt="">
+            <h3> <a href="https://www.deccanherald.com/city/bengaluru-politics/india-facing-unemployment-fascism-says-retired-hc-judge-nagamohan-das-1121487.html">
+                India facing unemployment, fascism: Retired HC judge
+            </a></h3>
+        </div>
+    </div>
+
+
+ </div>  
+</div>  
+<!-- =============================================================INFRASTRUCTURE================================================== -->
+
+<div id="container4">
+    <h1>-</h1>
+    <h1>INFRASTRUCTURE</h1>
+
+    <div id="container4A">
+
+      <div class="first1">
+        <img src="https://www.deccanherald.com/sites/dh/files/styles/largehorizontal/public/articleimages/2022/07/18/bengaluru-traffic-dh-1127563-1658151965.png?itok=DiHXTRe5" alt="">
+      </div>
+      <div class="second1">
+          <h3>
+            <a href="https://www.deccanherald.com/city/half-finished-flyover-work-means-south-bluru-it-hub-won-t-be-signal-free-for-two-years-1127563.html">
+              
+                South B'luru-IT hub won’t be signal-free for two years </a>
+        </h3>
+      </div>
+       <div class="third1">
+        <img src="https://www.deccanherald.com/sites/dh/files/styles/article_detail/public/articleimages/2022/07/14/karnataka-hc-dh-1110664-1652953364-1112510-1653510124-1125049-1657334377-1126479-1657746212.jpg?itok=nZfiAQBK" alt="">
+               <h3> <a href="https://www.deccanherald.com/city/bengaluru-infrastructure/hc-prohibits-construction-inside-rajajinagar-park-1126479.html">
+                HC prohibits construction inside Rajajinagar park</a></h3>
+          </div>
+          <div class="four1">
+            <img src="https://www.deccanherald.com/sites/dh/files/styles/smallvertical/public/articleimages/2022/07/16/14-hubli-6-potholes-near-basavanna-circlejpg-1127079-1657938723.jpg?itok=9RlqgUHB" alt="">
+            <h3> <a href="https://www.deccanherald.com/specials/point-blank/bengalurus-real-problems-different-from-assessment-parameters-1127079.html">
+                ‘Bengaluru's real problems different from assessment parameters'</a></h3>
+          </div>
+          <div class="five1">
+            <img src="https://www.deccanherald.com/sites/dh/files/styles/smallvertical/public/articleimages/2022/07/16/global-liveability-index-dh-1127076-1657938721.jpg?itok=YCs4TRG7" alt="">
+           <h3> <a href="https://www.deccanherald.com/specials/point-blank/liveability-bengaluru-s-great-fall-1127076.html">
+          
+            Liveability: Bengaluru’s great fall</a></h3>
+          </div>
+          <div class="six1">
+            <img src="https://www.deccanherald.com/sites/dh/files/styles/article_detail/public/articleimages/2022/07/14/file6xnmn94zkps5cdqsnsf-1126488-1657749666.jpg?itok=SQWAK9s2" alt="">
+              <h3><a href="https://www.deccanherald.com/city/bengaluru-infrastructure/rs-41-cr-to-spruce-up-tg-halli-catchment-area-along-prr-1126488.html">
+                Rs 4.1 cr to spruce up TG Halli catchment...  </a></h3>
+          </div>
+    </div>
+    </div> 
+
+</body>
+</html>

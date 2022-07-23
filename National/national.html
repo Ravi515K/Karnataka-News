@@ -1,0 +1,1021 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+       *{
+        margin:0px;
+        padding:0px;
+        /* box-sizing: border-box; */
+    }
+       .line{
+           font-size: 100px;
+           margin-bottom: -35px;
+            margin-left: 5%;
+            color:blue;
+      }
+       .title{
+        margin-left: 5%;
+        margin-bottom: 10px;
+        font-size: 25px;
+      }
+   
+    body{
+       
+        font-family: sans-serif;
+    }
+    img{
+        /* border:1px solid red; */
+    width:150px;
+    height:150px;
+    margin-left: 11%;
+    }
+ #outer{
+    background: teal;
+    text-align: center;
+    position: sticky;
+} 
+ #outer ul{
+    /* border:1px solid red; */
+
+    display:inline-flex;
+    align-items: center;
+    margin-left: 140px;
+    list-style:none;
+    color:#fff;
+   
+}
+#outer ul li {
+    /* border:1px solid red; */
+   width:100px;
+    /* padding-left:25px; */
+
+    
+}
+#outer ul li:nth-child(2){
+    width:120px;
+}
+#outer ul li:nth-child(3){
+    width:120px;
+}
+#outer ul li:hover{
+    background: #0bc9f4;
+}
+.active{
+  background-color: #ffff00;
+   font-size: 15px;
+   margin-left: 10px;
+   padding-left:5px;
+}
+#F2{
+    color:black;
+}
+#F1{
+    color:red;
+}
+#outer ul li a{
+    text-decoration: none;
+    color:white;
+}
+.drop{
+    display:none;
+}
+#outer ul li:hover .drop{
+ display:block;
+  /* width:100px; */
+ position:absolute;
+ background:teal ;
+ margin-top:2px;
+ margin-left:-15px;
+}
+#outer ul li:hover .drop ul{
+ display:block;
+ margin:10px;
+}
+#outer ul li:hover .drop ul li{
+    width:150px;
+    padding:10px;
+    border-bottom:1px dotted #fff;
+    background: transparent;
+    border-radius: 0%;
+    text-align: left;
+}
+#outer ul li:hover .drop ul li:last-child{
+    border:none;
+}
+#outer ul li:hover .drop ul li a:hover{
+   color:#0bc9f4
+}
+/* ======================================================================Bengaluru Head ========================================================= */
+#heading p{
+    font-size:15px;
+    color:blue;
+   
+}
+#heading p span{
+    font-size:15px;
+    color: black;
+   }
+
+
+#heading{
+    /* border:1px solid red; */
+    width:200px;
+    height: 30px;
+    margin-left: 5%;
+    margin-top: 100px;
+    margin-bottom: 5px;
+}
+  #heading1{
+    /* border:1px solid red; */
+    width:1200px;
+    height: 50px;
+    margin-left: 5%;
+    display:flex;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+
+}
+ #heading1 div{
+    /* border:1px solid red; */
+    width:200px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ #heading1 div h1 a{
+  text-decoration: none;
+    color:white;
+ }
+ #heading1  div h4 a{
+    text-decoration: none;
+    font-size: 16px;
+    margin-top: -0px;
+     color:black; 
+ }
+ 
+
+#heading1 div:first-child{
+   width:300px;
+    background-color: blue;
+}
+
+/* ===============================================================TOP STORIES ==================================================================== */
+
+     #container{
+        /* border:1px solid red; */
+        width:100%;
+        margin-top: 100px;
+        background-color: #65A2931A
+    }
+      #container span{
+      font-size:10px;
+      color: grey;
+      display:block;
+      padding-top: 10px;
+      } 
+      .main{
+          /* border:1px solid red; */
+          width:90%;
+          height:700px;
+          display: grid;
+          grid-template-columns: repeat(3,1fr);
+          grid-template-rows: 300px 300px;
+          gap:30px;
+          margin-left: 5%;
+          margin-right: 5%;
+      }
+      .main div{
+        /* border:1px solid red; */
+
+      }
+      .first img{
+        /* border:1px solid black; */
+        width:100%;
+        height:300px;
+        margin-left: 0%;
+      }
+      h2 {
+        margin-top: -60px;
+        color:white;
+        font-size: 20px;
+        margin-left: 10px;
+      }
+      h2 a{
+        color:#fff;
+        text-decoration: none;
+      }
+      .second{
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+        background-color: #fff;
+      }
+      .second div{
+        /* border:1px solid red; */
+        width:90%;
+        height:100px;
+        margin-left: 5%;
+        display:flex;
+     }
+      .second div img{
+        width:80%;
+        height:80px;
+        padding:10px;
+        margin-left: 0%;
+      }
+      h3{
+        font-size: 15px;
+        padding:10px;
+      }
+      .third img{
+        width:90%;
+        margin-left: 30px;
+        height: 280px;
+        margin-left: 0%;
+      }
+      .third h3 {
+        color:white;
+        margin-top: -35px;
+        margin-left: 25px;
+      }
+      h3 a{
+        color:#fff;
+        text-decoration: none;
+      }
+     
+      .four div{
+        /* border:1px solid red; */
+        width:100%;
+        height:130px;
+        margin: 0px 0px 50px 0px;
+       
+        /* margin-left: 5%; */
+        display:flex;
+        background-color: #fff;
+        /* box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px; */
+      }
+      .four div img{
+        width:80%;
+        height:130px;
+        margin-left: 0%;
+      }
+      h3 a{
+        text-decoration: none;
+        color:black;
+        font-size: 17px;
+      }
+      .five{
+        /* border:1px solid red; */
+        background-color: #fff;
+      }
+      .five p{
+        /* border:1px solid red; */
+         
+          border-bottom: 1px dotted teal;
+          padding:10px;
+      }
+       p a{
+        text-decoration: none;
+        color:black;
+        font-size: 17px;
+      
+      }
+      .six{
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+        background-color: #fff;
+      }
+      .six div{
+        /* border:1px solid red; */
+        width:90%;
+        height:100px;
+        margin-left: 5%;
+        display:flex;
+     }
+      .six div img{
+        width:80%;
+        height:80px;
+        padding:10px;
+        margin-left: 0%;
+      }
+
+
+/* ====================================================================POLITICS==================================================== */
+
+#container3{
+    margin-top: 10px;
+}
+#container3 span{
+      font-size:10px;
+      color: grey;
+      display:block;
+      padding-top: 10px;
+      } 
+#container3 h1:first-child{
+           font-size: 100px;
+           margin-bottom: -35px;
+            margin-left: 5%;
+            color:blue;
+      }
+      #container3 h1:nth-child(2){
+        margin-left: 5%;
+        margin-bottom: 10px;
+        font-size: 22px;
+      }
+       #container3{
+        /* border:1px solid red; */
+        width:100%;
+        background-color: #65A2931A
+       }
+    #container3A {
+          /* border:1px solid red; */
+          width:90%;
+          height:350px;
+          display: grid;
+          grid-template-columns: 30% 30% 30%;
+          grid-template-rows: 300px;
+          gap:30px;
+         margin-left: 5%;
+          margin-right: 5%;
+      }
+      .first1 img{
+        /* border:1px solid red; */
+        width:100%;
+        height:300px;
+        margin-left: 0%;
+      }
+      .second1{
+        /* border:1px solid red; */
+        background-color: green;
+        margin-left: -30px;
+        height:300px;
+        
+      }
+      .second1 h3 {
+        margin-top: 60px;
+       margin-left: 20px;
+       
+       
+    
+      }
+      .second1 h3 a{
+        color:white;
+        font-size: 25px;
+      }
+      
+      .third1{
+        background: #f6f6f6;;
+      }
+      .third1 div{
+        /* border:1px solid red; */
+        width:90%;
+        height:100px;
+        margin-left: 5%;
+        display:flex;
+     }
+      .third1 div img{
+        width:80%;
+        height:90px;
+        padding:10px;
+        margin-left: 0%;
+      }
+      .third1 div img:nth-child(2){
+        width: 90%;
+      }
+     
+     .third1 h3 a{
+        font-size: 17px;
+        text-decoration: none;
+        color:black;
+     }
+
+/* ====================================================================DISTRICTS====================================================== */
+#container4 h1:first-child{
+           font-size: 100px;
+           margin-bottom: -35px;
+            margin-left: 5%;
+            color:blue;
+      }
+      #container4 span{
+      font-size:10px;
+      color: grey;
+      display:block;
+      padding-top: 10px;
+      } 
+      #container4 h1:nth-child(2){
+        margin-left: 5%;
+        margin-bottom: 10px;
+        font-size: 22px;
+      }
+       #container4{
+        /* border:1px solid red; */
+        width:100%;
+        background-color: #65A2931A
+       }
+    #container4A {
+          /* border:1px solid red; */
+          width:90%;
+          height:700px;
+          display: grid;
+          grid-template-columns: repeat(3,1fr);
+          grid-template-rows: 300px 300px;
+          gap:30px;
+         margin-left: 5%;
+          margin-right: 5%;
+      }
+      .first1 img{
+        /* border:1px solid red; */
+        width:100%;
+        height:300px;
+        margin-left: 0%;
+      }
+      .second1{
+        /* border:1px solid red; */
+        background-color: blue;
+        margin-left: -30px;
+        height:300px;
+        
+      }
+      .second1 h3 {
+        margin-top: 60px;
+       margin-left: 20px;
+       
+       
+    
+      }
+      .second1 h3 a{
+        color:white;
+        font-size: 25px;
+      }
+       h3 a{
+        color:black;
+        font-size: 18px;
+        text-decoration: none;
+      }
+      .third1{
+        /* border:1px solid red; */
+        background: white;
+      }
+      .third1 img{
+        /* border:1px solid red; */
+        width:100%;
+        height:245px;
+        margin-left: 0%;
+      }
+      .four1{
+        /* border:1px solid red; */
+        background: white;
+      }
+      .four1 img{
+        /* border:1px solid red; */
+        width:100%;
+        height:245px;
+        margin-left: 0%;
+      }
+      .five1{
+        /* border:1px solid red; */
+        background: white;
+      }
+      .five1 img{
+        /* border:1px solid red; */
+        width:100%;
+        height:245px;
+        margin-left: 0%;
+      }
+      .six1{
+        /* border:1px solid red; */
+        background: white;
+      }
+      .six1 img{
+        /* border:1px solid red; */
+        width:100%;
+        height:245px;
+        margin-left: 0%;
+      }
+      #heading p span{
+    font-size:15px;
+    color: black;
+   }
+/* ==============================================================footer css part=============================================== */
+    .main1A{
+        /* border:1px solid red; */
+        background-color: rgb(48, 99, 187);
+         margin-top: 40px;
+
+    }
+    #containerX{
+        /* border:1px solid red; */
+        width:80%;
+        height:250px;
+        display: flex;
+        justify-content: space-between;
+        margin-left: 10%;
+        margin-top: 40px;
+        margin-bottom: 5px;
+    }
+    #containerX h5{
+        font-size: 15px;
+        margin-bottom: 5px;
+        color: white;
+        margin-top: 30px;
+    }
+    #containerX p{
+        color:white;
+        margin-top: 5px;
+    }
+    
+    #containerY{
+        /* border:1px solid red; */
+        width:70%;
+        height:30px;
+        display: flex;
+        justify-content: space-between;
+        margin-left: 10%;
+        margin-bottom: 40px;
+    }
+    #containerY div{
+        /* border:1px solid red; */
+        width:250px;
+    }
+    #containerY div h6{
+       font-size: 13px;
+       align-items: center;
+       margin: auto;
+       color: white;
+    }
+    .main2A{
+        /* border:1px solid red; */
+        margin-bottom: 20px;
+    }
+
+    #containerZ{
+     /* border:1px solid red; */
+     width:90%;
+     height:300px;
+     display: flex;
+     justify-content: space-between;
+     margin-left: 5%;
+     /* margin-top: 50px; */
+    }
+    #containerZ div hr{
+        /* border:1px solid red;  */
+        margin-right: 20px;
+        margin-bottom: 3px;
+    }
+    #containerZ div h2{
+        /* border:1px solid red;  */
+        height:20px;
+        font-size: 17px;
+        color:black;
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+    #containerZ div p{
+        margin-top: 10px;
+    }
+    #app img{
+        /* display: flex; */
+        width: 40px;
+        height: 40px;
+        margin-right: 10px;
+    }
+    #p{
+        color: grey;
+        font-size: 12px;
+        margin-top: 5px;
+    }
+
+</style>
+
+       <!-- =======================================================NAVBAR ======================================================================== -->
+    <div>
+        <img src="https://www.deccanherald.com/sites/deccanherald.com/themes/deccanherald/images/logo/d-logo-new.svg" alt="">
+    </div >
+    <div id="outer">
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">Bengaluru</a>
+            
+                <div class="drop">
+                    <ul>
+                        <li><a href="">Top Stories</a></li>
+                        <li><a href="">Crime</a></li>
+                        <li><a href="">Politics</a></li>
+                        <li><a href="">Infrastructure</a></li>
+                        <li><a href="">Life in the City</a></li>
+                        <li><a href="">Bengaluru 2040</a></li>
+                    </ul>
+                </div>
+            
+             </li>
+            
+             <li><a href="">Karnataka</a>
+                <div class="drop">
+                    <ul>
+                        <li><a href="">Top Stories</a></li>
+                        <li><a href="">Crime</a></li>
+                        <li><a href="">Politics</a></li>
+                        <li><a href="">Districts</a></li>
+                        <li><a href=""> 22in22</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li><a href="">National</a>
+                <div class="drop">
+                    <ul>
+                        <li><a href="">Politics </a></li>
+                        <li><a href="">Coronavirous</a></li>
+                        <li><a href="">North and Central</a></li>
+                        <li><a href="">East and North East</a></li>
+                        <li><a href=""> South</a></li>
+                        <li><a href=""> West</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li><a href="">Sports</a>
+                <div class="drop">
+                    <ul>
+                        <li><a href="">cricket </a></li>
+                        <li><a href="">Formula 1</a></li>
+                        <li><a href="">Tennis</a></li>
+                        <li><a href="">Sportscene</a></li>
+                        <li><a href=""> OtherSports</a></li>
+                        <li><a href=""> Football</a></li>
+                    </ul>
+                </div>
+            
+            </li>
+            <li><a href="">Buisness</a>
+                <div class="drop">
+                    <ul>
+                        <li><a href="">Business News </a></li>
+                        <li><a href="">Family Finance</a></li>
+                        <li><a href="">Technology</a></li>
+                        <li><a href="">Budget Wheels</a></li>
+                        <li><a href="">DH wheels</a></li>
+                        <li><a href="">Budget 2022</a></li>
+                    </ul>
+                </div>
+            
+            </li>
+            <li><a href="">Opinion</a>
+                <div class="drop">
+                    <ul>
+                        <li><a href="">DH Views </a></li>
+                        <li><a href="">Editorials</a></li>
+                        <li><a href="">Panorama</a></li>
+                        <li><a href="">Comment</a></li>
+                        <li><a href="">In perspective</a></li>
+                        <li><a href="">Right In the Middle</a></li>
+                    </ul>
+                </div>
+            
+            </li>
+            <li><a href="">Features</a>
+                <div class="drop">
+                    <ul>
+                        <li><a href="">Metrolife </a></li>
+                        <li><a href="">Entertainment</a></li>
+                        <li><a href="">Travel</a></li>
+                        <li><a href="">Spectrum</a></li>
+                        <li><a href="">Sunday Herald</a></li>
+                        <li><a href="">Living</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li><a href="">Videos</a>
+                <div class="drop">
+                    <ul>
+                        <li><a href="">Latest Videos </a></li>
+                        <li><a href="">Bengaluru</a></li>
+                        <li><a href="">Karnataka</a></li>
+                        <li><a href="">People</a></li>
+                        <li><a href="">Popular</a></li>
+                       
+                    </ul>
+                </div>
+            
+            </li>
+            <li><a href="">Specials</a>
+                <div class="drop">
+                    <ul>
+                        <li><a href="">Insight </a></li>
+                        <li><a href="">Point Blank</a></li>
+                        <li><a href="">Sunday Spotlight</a></li>
+                     
+                       
+                    </ul>
+                </div>
+            
+            </li>
+            <li><a href="">Brandspot</a></li>
+            <li class="active"><a href="">
+                 <span id="F1"> New</span>
+                <span id="F2"> Newsletters</span>
+             </a></li>
+           
+        </ul>
+    </div>
+
+    <!-- =====================================Start-Headings ========================================================================================== -->
+    <div id="heading">
+       <p >Home <span >/ Karnataka</span></p>
+    </div>
+
+    <div id="heading1">
+        <div class="Beng"><h1><a href="">NATIONAL</a></h1></div> 
+        <div><h4><a href="BenTopStories.html"> TOP STORIES</a></h4></div> 
+        <div><h4><a href="Beng-Politics.html">NORTH AND EAST</a></h4></div> 
+        <div><h4><a href="">SOUTH</a></h4></div>
+    </div>
+
+    <!-- =======================================================TOP STORIES =========================================================== -->
+    
+    <div id="container">
+        <h1 class="line">-</h1>
+        <h1 class="title">TOP STORY</h1>
+        <div class="main">
+       
+        <div class="first">
+            <img src="https://www.deccanherald.com/sites/dh/files/styles/fullcardimage/public/articleimages/2022/07/23/pti07192022000123a-1-1129270-1658548441.jpg?itok=TYARHhXK" alt="">
+            <h2><a href="https://www.deccanherald.com/national/national-politics/battle-for-shiv-sena-ec-asks-uddhav-thackeray-eknath-shinde-prove-majority-with-documentary-evidence-1129270.html">
+                Whose Sena? EC asks Uddhav, Shinde to prove majority</a></h2>
+      </div>
+        <div class="second">
+            <div>
+                <img src="https://www.deccanherald.com/sites/dh/files/styles/snippetlist/public/articleimages/2022/07/22/cong-flag-getty-1129161-1658509060.jpg?itok=O1WFrAc0" alt="">
+                <h3><a href="https://www.deccanherald.com/national/south/kerala-edition-of-congresss-chintan-shivir-from-july-23-1129161.html">Kerala edition of Cong's Chintan Shivir from tomorrow...</a></h3>
+          </div>
+            <div>
+                <img src="https://www.deccanherald.com/sites/dh/files/styles/snippetlist/public/articleimages/2022/07/22/sonia-gandhi-pti-file-1129149-1658508020.jpg?itok=qw7zsveE" alt="">
+                <h3><a href="https://www.deccanherald.com/national/ed-defers-sonia-gandhis-summons-to-july-26-1129149.html">ED defers Sonia Gandhi's summons to July 26...</a></h3>
+            </div>
+            <div>
+                <img src="https://www.deccanherald.com/sites/dh/files/styles/snippetlist/public/articleimages/2022/07/22/rahul-1129118-1658507342.jpg?itok=_X7neoKt" alt="">
+                <h3><a href="https://www.deccanherald.com/national/national-politics/rahul-gandhi-attacks-centre-over-no-concession-on-rail-tickets-to-elderly-people-1129118.html">  Rahul slams govt for high rail ticket fares for...</a></h3>
+            </div>
+        </div>
+        <div class="third">
+                <img src="https://www.deccanherald.com/sites/dh/files/styles/smallhorizontal/public/articleimages/2022/07/22/uddhav-pti-1129131-1658510731.jpg?itok=Fjjb6s4p" alt="">
+        </div>
+        <div class="four">
+           <div>
+            <img src="https://www.deccanherald.com/sites/dh/files/styles/smallhorizontal/public/articleimages/2022/07/22/lok-sabha-pti-1-1128737-1658398295-1-1128989-1658478244-1-1129070-1658488676.jpg?itok=T4Ul-r1f" alt="">
+            <h3><a href="https://www.deccanherald.com/national/national-politics/lok-sabha-passes-indian-antarctic-bill-2022-1129070.html">Lok Sabha passes Indian Antarctic Bill, 2022
+             <span> 22nd Jul 2022</span>  </a></h3>
+           </div>
+           <div>
+            <img src="https://www.deccanherald.com/sites/dh/files/styles/smallhorizontal/public/articleimages/2022/07/22/droupadi-murmu-pti-1129089-1658491983.png?itok=LxB1-J6e" alt="">
+            <h3><a href="https://www.deccanherald.com/national/national-politics/bjp-to-study-cross-voting-pattern-during-prez-election-1129089.html">BJP to study cross-voting pattern during Prez election...
+               <span>22nd Jul 2022</span> </a></h3>
+           </div>
+        </div>
+        <div class="five">
+       
+            <p><a href="https://www.deccanherald.com/national/national-politics/rajya-sabha-witnesses-repeated-disruptions-1129059.html">Rajya Sabha witnesses repeated disruptions</a> </p>
+            <p><a href="https://www.deccanherald.com/national/national-politics/vice-president-venkaiah-naidu-meets-droupadi-murmu-congratulates-her-on-being-elected-president-1128993.html">VP Naidu congratulates newly elected President Murmu</a></p>
+            <p><a href="https://www.deccanherald.com/national/cbse-class-10-results-declared-how-to-check-your-marks-1128996.html">
+                CBSE Class 10 results declared: How to check your marks</a></p>
+            <p><a href="https://www.deccanherald.com/national/south/third-case-of-monkeypox-confirmed-in-kerala-1128991.html">Third case of monkeypox confirmed in Kerala</a></p>
+            <p><a href="https://www.deccanherald.com/national/national-politics/lok-sabha-adjourned-till-2-pm-1128989.html">Lok Sabha adjourned till 2 pm</a></p>
+        </div>
+            <div class="six">
+           <div>
+            <img src="https://www.deccanherald.com/sites/dh/files/styles/snippetlist/public/articleimages/2022/07/22/modi-pti-1-1128988-1658477801.jpg?itok=JADKXXo2" alt="">
+            <h3><a href="https://www.deccanherald.com/national/pm-modi-calls-for-intensifying-har-ghar-tiranga-movement-1128988.html">PM calls for intensifying 'Har Ghar Tiranga' movement...</a></h3>
+             </div>
+           <div>
+            <img src="https://www.deccanherald.com/sites/dh/files/styles/snippetlist/public/articleimages/2022/07/22/kejriwal-pti-1128986-1658488543.jpg?itok=OEIoliZS" alt="">
+            <h3><a href="https://www.deccanherald.com/national/north-and-central/manish-sisodia-an-honest-man-cm-arvind-kejriwal-after-l-gs-liquor-policy-probe-order-1128986.html">Sisodia an honest man: Kejriwal after L-G's probe order...</a></h3>
+          </div>
+         
+           <div>
+            <img src="https://www.deccanherald.com/sites/dh/files/styles/snippetlist/public/articleimages/2022/07/22/covid-19-reuters-new-1128939-1658464807.jpg?itok=5s9PuIoB" alt="">
+            <h3><a href="https://www.deccanherald.com/national/north-and-central/21880-new-covid-19-cases-in-india-active-caseload-nears-15-lakh-1128939.html">India reports 21,880 new Covid-19 cases, 60 more deaths...</a></h3>
+         </div>
+          
+        </div>
+        
+    </div>
+</div>
+
+ 
+<!-- ==========================================================North and central================================================================ -->
+
+<div id="container3">
+    <h1>-</h1>
+    <h1>NORTH AND CENTRAL</h1>
+
+    <div id="container3A">
+
+      <div class="first1">
+        <img src="https://www.deccanherald.com/sites/dh/files/styles/largehorizontal/public/articleimages/2022/07/23/pti11292021000261a-1-1113466-1653827057-1123742-1656930139-1129281-1658553615.jpg?itok=MnJqIjhf" alt="">
+
+      </div>
+      <div class="second1">
+         <h3><a href="https://www.deccanherald.com/national/pakistan-drone-repulsed-by-bsf-in-jammus-kanachak-sector-1129281.html">
+            Pak drone repulsed by BSF in Jammu's Kanachak sector
+           <span> an hour ago</span></a></h3>
+     </div>
+
+      <div class="third1">
+        <div>
+            <img src="https://www.deccanherald.com/sites/dh/files/styles/largevertical/public/articleimages/2022/07/23/file7ly5pi21a481jjox9flm-1-1128863-1658461364-1129244-1658556975.jpg?itok=eEf-nVqG" alt="">
+            <h3><a href="https://www.deccanherald.com/national/will-keep-tweeting-calling-out-hate-speech-mohammed-zubair-1129244.html">
+                Will keep tweeting, calling out hate speech: Zubair...
+               <span>48 mins ago</span> </a></h3>
+        </div>
+        <div>
+            <img src="https://www.deccanherald.com/sites/dh/files/styles/smallvertical/public/articleimages/2022/07/23/mukhtar-ansari-pti-1095451-1648464163-1129257-1658539496.jpg?itok=tBiehM4o" alt="">
+            <h3><a href="https://www.deccanherald.com/national/mukhtar-ansaris-bail-plea-in-ambulance-case-rejected-1129257.html">
+                Mukhtar Ansari's bail plea in ambulance case rejected...
+              <span>6:54 am</span>  </a></h3>
+         </div>
+        <div>
+            <img src="https://www.deccanherald.com/sites/dh/files/styles/smallvertical/public/articleimages/2022/07/23/file7lz7l0bpbgj1ndrhll9z-1-1129256-1658539254.jpg?itok=gtnXgzqX" alt="">
+            <h3><a href="https://www.deccanherald.com/national/north-and-central/pm-modi-hosts-dinner-for-outgoing-president-ram-nath-kovind-1129256.html">
+                PM Modi hosts dinner for outgoing President Kovind...
+              <span>6:50 am</span>  </a></h3>
+       </div>
+    </div>
+
+
+ </div>  
+</div>  
+
+<!-- ===========================================================================South================================================= -->
+
+
+<div id="container4">
+    <h1>-</h1>
+    <h1>SOUTH</h1>
+
+    <div id="container4A">
+
+      <div class="first1">
+        <img src="https://www.deccanherald.com/sites/dh/files/styles/largehorizontal/public/articleimages/2022/07/23/file7lz34oxzni01g844fhqw-1-1129251-1658537911.jpg?itok=DMBtHZLV" alt="">
+      </div>
+      <div class="second1">
+       <h3><a href="https://www.deccanherald.com/national/south/battered-by-rains-telangana-braces-for-more-downpour-1129251.html">
+     
+        Battered by rains, Telangana braces for more downpour
+       <span> 6:28 am</span></a></h3>
+      </div>
+       <div class="third1">
+        <img src="https://www.deccanherald.com/sites/dh/files/styles/largevertical/public/articleimages/2022/07/22/deadbdy-istock-1129121-1658499472.jpg?itok=-3hjT74Y" alt="">
+        <h3><a href="https://www.deccanherald.com/national/south/kallakurichi-girl-s-family-agrees-to-accept-her-body-on-july-23-1129121.html">Kallakurichi girl’s kin agrees to accept body tomorrow... <span> 22nd Jul 2022 </span>  </a></h3>
+        </div>
+          <div class="four1">
+            <img src="https://www.deccanherald.com/sites/dh/files/styles/smallvertical/public/articleimages/2022/07/23/file7lz866pt902wf4i51z6-1-1129250-1658537627.jpg?itok=obqtnEP3" alt="">
+            <h3><a href="https://www.deccanherald.com/national/south/nanjiyamma-brings-more-cheers-to-kerala-tribal-community-1129250.html"> Nanjiyamma brings more cheers to Kerala tribes<span>  6:23 am</span></a></h3>
+        </div>
+         
+         <div class="five1">
+            <img src="https://www.deccanherald.com/sites/dh/files/styles/smallvertical/public/articleimages/2022/07/22/cong-flag-getty-1129161-1658509060.jpg?itok=wT8VvTGQ" alt="">
+            <h3><a href="https://www.deccanherald.com/national/south/kerala-edition-of-congresss-chintan-shivir-from-july-23-1129161.html">
+                Kerala edition of Cong's Chintan Shivir from tomorrow...
+               <span>22nd Jul 2022</span> </a></h3>
+         </div>
+          
+            <div class="six1">
+                <img src="https://www.deccanherald.com/sites/dh/files/styles/smallvertical/public/articleimages/2022/07/22/sasikala-pti-1129139-1658505283.png?itok=cIK-1Y0r" alt="">
+                <h3><a href="https://www.deccanherald.com/national/no-aiadmk-representation-in-lok-sabha-after-expulsion-of-lone-mp-sasikala-1129139.html">
+                    Sasikala defends OPS, slams EPS for expelling lone MP...
+                   <span>22nd Jul 2022</span> </a></h3>
+           </div>
+    </div>
+ </div> 
+     <!-- ===========================================================footer======================================= -->
+ 
+     <div class="main1A">
+       
+    <div id="containerX" >
+      <div>
+        <h5>NATIONAL</h5>
+         <hr>
+         <p>Politics</p>
+         <p>North and Central</p>
+         <p>South</p>
+         <p>East and Northreast</p>
+         <p>West</p>
+      </div>
+      <div>
+        <h5>KARNATAKA</h5>
+        <hr>
+        <p>Top stories</p>
+        <p>Politics</p>
+        <p>Districts</p>
+      </div>
+      <div>
+        <h5>BENGALURU</h5>
+        <hr>
+        <p>Top stories</p>
+        <p>Crime</p>
+        <p>Politics</p>
+        <p>Infrastructure</p>
+        <p>Life in the city</p>
+      </div>
+      <div>
+        <h5>SPORTS</h5>
+      <hr>
+      <p>Cricket</p>
+      <p>Football</p>
+      <p>Tennis</p>
+      <p>Sports Scenes</p>
+      <p>Other Sports</p>
+      </div>
+    
+      <div>
+       <h5> BUSINESS</h5>
+      <hr>
+      <p>Business News</p>
+      <p>Family Finance</p>
+      <p>Technology</p>
+      <p>DH Wheels</p>
+     </div>
+
+     <div>
+        <h5>MULTIMEDIA</h5>
+        <hr>
+        <p>Photos</p>
+        <p>Videos</p>
+      </div>
+     <div>
+        <h5>ENTERTAINMENT</h5>
+        <hr>
+        <p>Entertainment News</p>
+        <p>DH Show Times</p>
+        <p>DH Talkies</p>
+        <p>Arts, books & culture</p>
+     </div>
+ </div>
+
+
+    <div id="containerY">
+    <div><h6>IT'S L-G VS DELHI GOVT AGAIN</h6></div>
+   <div><h6>THIRD MONKEYPOX CASE IN KERALA</h6></div>
+   <div><h6>THE DHANKHAR CONUNDRUM</h6></div>
+   <div><h6>DH PHOTO GALLERIES</h6></div>
+   </div>
+</div>
+
+<div class="main2A">
+<div id="containerZ" >
+
+    <div>
+        <h2>DH PICKS</h2>
+        <hr>
+        <p>CBSE scraps merit lists for class 10, 12 exams</p>
+        <p>National Film Awards: Ajay, Sooriya win Best</p>
+        <p>Actor</p>
+        <p>Ukraine war and the decline of Eurocentrism</p>
+        <p>Despite Didi's $1.2 bn fine, China tech's woes not over</p>
+        <p>The Dhankhar conundrum: TMC-BJP self-goal in Bengal</p>
+    </div>
+    <div>
+        <h2>LATEST STORIES</h2>
+        <hr>
+        <p>TMC abstaining from VP polls 'disappointing', says Alva</p>
+        <p>Domino's India may shift business from Zomato, Swiggy</p>
+        <p>BJP to study cross-voting pattern during Prez election</p>
+        <p>Lone vote for Murmu from Kerala elates BJP, starts stir</p>
+        <p>Sunak's 'privileged' upbringing makes him media target</p>
+    </div>
+    <div>
+        <h2>TRENDING NEWS</h2>
+        <hr>
+        <p>Bengaluru traffic cop stops rider with body cam off</p>
+        <p>Hoax bomb threat at Bengaluru school triggers panic</p>
+        <p>India will burn its $100 billion in 5 months</p>
+        <p>Water quality dips dangerously in parts of Bengaluru</p>
+        <p>Liveability: Bengaluru’s great fall</p>
+    </div>
+
+    <div id="app">
+        <div>
+            <h2>DOWNLOAD DH APP</h2> 
+            <hr>
+            <div id="apple">
+                <img src="https://www.deccanherald.com/sites/deccanherald.com/modules/dynamicfooter/images/android.svg" alt="">
+                <img src="https://www.deccanherald.com/sites/deccanherald.com/modules/dynamicfooter/images/ios.svg" alt="">
+            </div>
+
+        </div>
+        <div>
+            <h2>SERVICES</h2>
+            <hr>
+            <p>About Epaper Archives Sitemap Classifieds Contact</p>
+        </div>
+        <div>
+            <h2>OUR GROUP SITES</h2>
+            <p>Printers Mysore Prajavani Sudha Mayura Exam Mastermind</p>
+            <p id="p">Privacy Policy Terms Disclaimer Grievance Redressal</p>
+        </div>
+
+    </div>
+</div>
+</div>
+</body>
+</html>
